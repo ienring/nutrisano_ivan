@@ -1,0 +1,36 @@
+.marcas{
+    h2 {
+        color:$blanco;
+        margin-bottom: 5rem;
+    }
+    padding-bottom: 25rem;
+}
+.contenedor_marcas{
+    @include grid(2, 2rem);
+    justify-items: center;
+    background-color: $negroAlpha;
+    padding: 2rem;
+    .marca_img{
+        width: 10rem;
+        height: 10rem;
+    }
+    @include tablet {
+        @include flex(row, 2rem);
+        align-items: center;
+        justify-content: space-around;
+        margin: 10rem 0 5rem 0 ;
+        width: 100%;
+        .marca_img{
+            width: 15rem;
+            height: 15rem;
+        } 
+    }
+}
+.marcas__texto{
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    @include tablet {
+        @include grid(2, 2rem);
+    }
+}

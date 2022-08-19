@@ -1,0 +1,49 @@
+.contacto-formulario {
+    padding: 10rem 0;
+    text-align: center;
+    h3 {
+        color: $grisClaro2;
+    }
+
+}
+.contacto-contenedor {
+    align-items: center;
+    p{
+        display: block;
+        text-align: center;
+        color: $blanco;
+        margin-bottom: 5rem
+    }
+}
+.contacto-formulario{
+    padding-top: 10rem;
+}
+
+.formulario {
+    height: 40rem;
+    background-color: $grisAlpha;
+    border-radius: 5px;
+    margin: -5rem auto 0 auto;
+    width: 75%;
+    padding: 5rem 1rem 1rem 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.campo{
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    color: $grisClaro2;
+}
+.campo__field{
+    flex: 1;
+    border: 1px solid var(--gris);
+}
+.campo__field--textarea{
+    height: 20rem;
+    width: 100%;
+    border: 1px solid var(--gris);
+}

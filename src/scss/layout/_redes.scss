@@ -1,0 +1,29 @@
+.contacto_redes-contenedor {
+    background-color: $grisClaro2;
+    padding: 5rem 0 15rem;
+}
+.contacto-redes{
+    @include flex(row, 2rem);
+    padding: 10rem 0;
+    border-bottom: 2px solid $grisClaro;
+    border-top: 2px solid $grisClaro;
+    align-items: center;
+    justify-content: space-between;
+    @include tablet {
+        justify-content: space-evenly;
+    }
+    a{
+        p{
+            color:$verdeos;
+            font-weight: 700;
+            }
+        &:hover{
+        filter: brightness(0.7);
+        }
+    }
+}
+.logo-redes {
+    width: 100%;
+    height: 100%;
+    max-width: 10rem;
+}

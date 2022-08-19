@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrisano tienda de alimentos y productos orgánicos</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="build/img/fav-icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="build/img/fav-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="build/img/fav-icon/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body id="inicio">
+   <div class="header-container">
+    <header class="header site-header">
+            <a href="index.html">
+                <picture>
+                    <source srcset="build/img/logo-header.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="build/img/logo-header.png" alt="logo de nutrisano" class="logo">
+                </picture>
+            </a>
+        <a href=""><img src="build/img/shoping-cart.svg" class="carrito cart-mobile" alt="imagen carrito de compras "></a>
+        <div class="mobile-menu">
+            <img src="build/img/menu.svg" alt="imagen menu mobile">
+        </div>
+        
+        <nav class="navegacion-principal">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="nosotros.html" class="nav-link">Nosotros</a>
+            <a href="tienda.html" class="nav-link">Tienda</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+            <a href="carrito.html"><img src="build/img/shoping-cart.svg" class="carrito cart-desktop" alt="imagen carrito de compras "></a>
+        </nav> 
+    </header>
+   </div> 
+   <section class="portada-container">
+        <h1>Alimentación natural, saludable y sustentable a la puerta de tu casa</h1>
+        <a class="boton-primario" href="#"> Hacer mi pedido a domicilio </a>
+   </section>
+
+   <!-- Empieza Main-->
+    <main class="main">
+        <section class="contenedor sec-productos">
+            <h2 class="titulo-secundario">Nuestros Productos Principales</h2>
+
+            <div class="productos slider">
+                <div class="slider__container container">
+                        <img src="src/img/left-arrow.png" class="slider__arrow" id="before">
+                
+                            <section class="slider__body slider__body--show" data-id="1"> <!-- Display 1 -->
+                                <figure class="slider__picture">
+                                    <img id="slider__img" loading="lazy" src="src/img/slider/slider1.jpg"  alt="imagen producto">
+                                </figure>
+                                <div class="slider__text">
+                                    <h4>Pepino</h4>
+                                    <p>Precio por kg: 250$</p>
+                                </div>
+                            </section> 
+
+                            <section class="slider__body" data-id="2"> <!-- Display 2 -->
+                                <figure class="slider__picture">
+                                    <img id="slider__img" loading="lazy" src="src/img/slider/slider2.jpg"  alt="imagen producto">
+                                </figure>
+                                <div class="slider__text">
+                                    <h4>Zanahoria</h4>
+                                    <p>Precio por kg: 650$</p>
+                                </div>
+                            </section> 
+
+                            <section class="slider__body" data-id="3">  <!-- Display 3 -->
+                                <figure class="slider__picture">
+                                    <img id="slider__img" loading="lazy" src="src/img/slider/slider3.jpg"  alt="imagen producto">
+                                </figure>
+                                <div class="slider__text">
+                                    <h4>Acelga</h4>
+                                    <p>Precio por kg: 550$</p>
+                                </div>
+                            </section>
+
+                        <img src="src/img/right-arrow.png" class="slider__arrow" id="next">
+
+                </div>
+                        <a href="#" class="boton-primario">Ver más</a>
+            </div>
+
+
+        </section>
+    </main>
+
+
+    <section class="quines-somos contenedor-oscuro">
+        <h2 class="titulo-secundario">Productos orgánicos</h2>
+        <div class="contenedor productos-main org">
+            <div class="huerta">
+                <h3 class="titulo-secundario">Huerta orgánica</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet et diam non tristique. Morbi odio risus, ullamcorper pretium pharetra quis, bibendum et orci. In ultricies tortor erat, ac consequat lacus condimentum nec. Phasellus gravida quam id massa mollis ultrices. Duis accumsan lorem a quam tempor, ut dictum enim luctus.</p>
+            </div>
+            <div class="huerta_img_contenedor">
+                <!-- <picture>
+                    <source srcset="build/img/conteido/img9.webp" type="image/webp"> -->
+                    <img class="huerta_img" loading="lazy" width="200" height="300" src="src/img/contenido/img9.jpg" alt="Imagen huerta">
+                <!-- </picture> -->
+            </div>
+        </div>
+
+        <div class="contenedor productos-main org2">
+            <div class="huerta-productos">
+                <h3 class="titulo-secundario">Productos 100% naturales</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet et diam non tristique. Morbi odio risus, ullamcorper pretium pharetra quis, bibendum et orci. In ultricies tortor erat, ac consequat lacus condimentum nec. Phasellus gravida quam id massa mollis ultrices. Duis accumsan lorem a quam tempor, ut dictum enim luctus.</p>
+            </div>
+            <div class="huerta_img_contenedor">
+                <img class="huerta_img" loading="lazy" width="200" height="300" src="src/img/contenido/img10.jpg" alt="Imagen huerta">
+                <!-- <picture>
+                    <source srcset="build/img/conteido/img10.webp" type="image/webp">
+                    <img class="huerta_img" loading="lazy" width="200" height="300" src="img10" alt="Productos">
+                </picture> -->
+            </div>
+        </div>
+
+    </section>
+    
+    <section class=" galeria-bg" id="galeria">
+        <div class="galeria">
+            <h3 class="galeria-titulo">@Seccion Galeria</h3>
+            <ul class="galeria-imagenes"></ul>
+        </div>
+    </section>
+
+
+    </div>
+   
+<!--  Seccion de Marcas  -->
+        <section class="marcas contenedor-oscuro">
+            <h2 class="titulo-secundario">Marcas de primera calidad</h2>
+            <div class="contenedor_marcas">
+                <picture>
+                    <source srcset="build/img/marca5.webp" type="image/webp">
+                    <img class="marca_img" loading="lazy" width="200" height="300" src="marca5.png" alt="marca de productos con los que trabajamos">
+                </picture>
+
+                <picture>
+                    <source srcset="build/img/marca2.webp" type="image/webp">
+                    <img class="marca_img" loading="lazy" width="200" height="300" src="marca2.png" alt="marca de productos con los que trabajamos">
+                </picture>
+
+                <picture>
+                    <source srcset="build/img/marca3.webp" type="image/webp">
+                    <img class="marca_img" loading="lazy" width="200" height="300" src="marca3.png" alt="marca de productos con los que trabajamos">
+                </picture>
+
+                <picture>
+                    <source srcset="build/img/marca6.webp" type="image/webp">
+                    <img class="marca_img" loading="lazy" width="200" height="300" src="marca6.png" alt="marca de productos con los que trabajamos">
+                </picture>
+            </div>
+            <div class="marcas__texto contendor">
+                <p>Nuestra seleccion de marcas de primera calidad te garantiza dasdasd. Quisque a posuere elit. Praesent in nunc sed massa posuere faucibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a posuere elit. Praesent in nunc sed massa posuere faucibus. Aliquam aliquet finibus interdum. </p>
+            </div>
+        </section>
+
+        <section class="#">
+            <div class="contacto_redes-contenedor">
+                <h3 class="titulo-secundario">Redes Sociales</h3>
+                <div class="contacto-redes">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <picture> 
+                            <source srcset="build/img/redes/ig-logo.webp" type="image/webp">
+                            <source srcset="src/img/redes/ig-logo.png" type="image/png">
+                            <img loading="lazy" width="200" height="200" src="src/img/redes/ig-logo.png" alt="Logo de instagram" class="logo-redes">
+                        </picture>
+                        <p>Instagram</p>
+                    </a> 
+
+                    <a href="https://www.facebook.com//" target="_blank">
+                        <picture> 
+                            <source srcset="build/img/redes/fb-logo.webp" type="image/webp">
+                            <source srcset="src/img/redes/fb-logo.png" type="image/png">
+                            <img loading="lazy" width="200" height="200" src="src/img/redes/fb-logo.png" alt="Logo de instagram" class="logo-redes">
+                        </picture>
+                        <p>Facebook</p>
+                    </a> 
+                </div>
+                    <!-- 
+                    <a href="https://www.facebook.com//" target="_blank">
+                        <picture> 
+                            <source srcset="build/img/ig-logo.webp" type="image/webp"> 
+                            <source srcset="src/img/redes/fb-logo.png" type="image/png">
+                            <img loading="lazy" width="200" height="300" src="src/img/redes/fb-logo.png" alt="Logo de instagram" class="logo-redes">
+                        </picture>
+                        <p>Facebook</p>
+                    </a> 
+
+                    <a href="https://www.facebook.com//" target="_blank">
+                        <picture> 
+                            <source srcset="build/img/ig-logo.webp" type="image/webp">
+                            <source srcset="src/img/redes/fb-logo.png" type="image/png">
+                            <img loading="lazy" width="200" height="300" src="src/img/redes/fb-logo.png" alt="Logo de instagram" class="logo-redes">
+                        </picture>
+                        <p>Facebook</p>
+                    </a>  -->
+               
+
+            </div>
+
+            <div class="contacto-formulario contenedor-oscuro">
+                    <h3 class="titulo-secundario">Contacto</h3>
+                    <p>Dejanos tus dudas o comentarios!</p>
+                <form class="formulario">
+                    <div class="campo">
+                        <label class="campo__label" for="nombre">Nombre</label>
+                            <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre">
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="email">Email</label>
+                            <input class="campo__field" type="email" placeholder="Tu Correo Electronico" id="email">
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="mensaje">Mensaje</label>
+                        <textarea class="campo__field--textarea" id="mensaje"></textarea>
+                    </div>
+                    <div class="campo">
+                        <input type="submit" value="Enviar" class="boton boton-secundario">
+                    </div>
+                </form> 
+            </div>
+        </section>
+
+    <footer class="footer">
+        <section class="footer-sec">
+            <nav class="navegacion-principal footer-nav">
+                <a href="#inicio" class="nav-link salto_uno" id="salto">Inicio</a>
+                <a href="nosotros.html" class="nav-link">Nosotros</a>
+                <a href="tienda.html" class="nav-link">Tienda</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </nav>
+            <div class="redes-footer">
+                <a href="https://www.facebook.com//" target="_blank">
+                    <picture> 
+                        <source srcset="build/img/redes/fb-logo.webp" type="image/webp">
+                        <source srcset="src/img/redes/fb-logo.png" type="image/png">
+                        <img loading="lazy" width="20" height="20" src="src/img/redes/fb-logo.png" alt="Logo de instagram" class="#">
+                    </picture>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <picture> 
+                        <source srcset="build/img/redes/ig-logo.webp" type="image/webp">
+                        <source srcset="src/img/redes/ig-logo.png" type="image/png">
+                        <img loading="lazy" width="20" height="20" src="src/img/redes/ig-logo.png" alt="Logo de instagram" class="#">
+                    </picture>
+                </a>
+            </div>
+        </section>
+        
+        <p class="copyright"> Todos los derechos reservados&copy;2022</p> 
+    </footer>
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>

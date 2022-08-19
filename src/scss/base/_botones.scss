@@ -1,0 +1,28 @@
+.boton-primario{
+    @include tablet {
+        width: 30%;
+    }
+    background-color: $salmon;
+    padding: 2.5rem;
+    color: $blanco;
+    margin: 0 auto;
+    font-size: larger;
+
+    &:hover{
+        background-color: $amarillo;
+    }
+}
+.boton-secundario{
+    background-color: $verdeos;
+    padding: 2.5rem;
+    @include tablet {
+        width: 30%;    
+    }
+    color: $blanco;
+    margin: 0 auto;
+    font-size: larger;
+
+    &:hover{
+        background-color: $amarillo;
+    }
+}

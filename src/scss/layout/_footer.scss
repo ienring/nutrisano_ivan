@@ -1,0 +1,25 @@
+.footer{
+    background-color: $verdeos;
+    text-align: center;
+    .redes-footer{
+        @include flex(row, 2rem);
+        align-items: center;
+    }
+}
+.footer-sec{
+    @include flex(row, 2rem);
+    justify-content: center
+}
+.footer-nav{
+    margin: 1rem;
+    justify-content: center;
+
+}
+
+.copyright{
+    position: relative;
+    font-size: 1.8rem;
+    color: $grisClaro;
+    margin: .5rem 0 0 0;
+    
+}

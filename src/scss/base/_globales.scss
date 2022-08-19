@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+    font-size:62.5% /*1 px = 1rem*/
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: $fuente_principal;
+    font-size: 1.6rem;
+    &.body-scroll{
+        padding-top: 8.1rem;
+    }&.fijar-body {
+        overflow: hidden;
+    }
+}
+p{
+    font-size: 2rem;
+    color: $grisClaro2;
+    line-height: 1.5;
+}
+.contenedor{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3{
+    margin: 0 0 3rem 0;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    margin-top: 3rem;
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 3rem;
+}
+
+img {
+    width: 100%;
+}
+
+.contenedor-oscuro {
+    padding: 5rem 0;
+    background-color: $negroAlpha;
+    margin: 0 auto;
+}
+.titulo-secundario {
+    text-align: center;
+    color: $verdeos;
+    @include titulos-responsive
+}

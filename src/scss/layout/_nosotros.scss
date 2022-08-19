@@ -1,0 +1,25 @@
+.nosotros-container{
+    height: auto;
+    width: 100%;
+}
+
+.nosotros-contenedor{
+    margin: 10rem auto;
+    text-align: center;   
+    color: $blanco;
+    background-color: rgba(#000000, .2);
+    padding: 5rem;
+}
+.nosotros-contenido {
+    @include grid(2, 2rem);
+    color: $blanco;
+    width: 70%;
+
+    h2 {
+        text-align: center;
+    }
+    p {
+        color: $blanco;  
+    }
+    
+}
