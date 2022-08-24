@@ -11,21 +11,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
-<body>
+<body id="inicio">
    <div class="header-container">
     <header class="header site-header">
-       
             <a href="index.html">
-            <picture>
-                <source srcset="build/img/logo-header.webp" type="image/webp">
-                <img loading="lazy" width="200" height="300" src="build/img/logo-header.png" alt="logo de nutrisano" class="logo">
-            </picture>
-        </a>
-       
+                <picture>
+                    <source srcset="build/img/logo-header.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="build/img/logo-header.png" alt="logo de nutrisano" class="logo">
+                </picture>
+            </a>
         <a href=""><img src="build/img/shoping-cart.svg" class="carrito cart-mobile" alt="imagen carrito de compras "></a>
-
         <div class="mobile-menu">
             <img src="build/img/menu.svg" alt="imagen menu mobile">
         </div>
@@ -35,62 +35,135 @@
             <a href="nosotros.html" class="nav-link">Nosotros</a>
             <a href="tienda.html" class="nav-link">Tienda</a>
             <a href="contacto.html" class="nav-link">Contacto</a>
-            <a href=""><img src="build/img/shoping-cart.svg" class="carrito cart-desktop" alt="imagen carrito de compras "></a>
-        </nav>
-        
+            <a href="carrito.html"><img src="build/img/shoping-cart.svg" class="carrito cart-desktop" alt="imagen carrito de compras "></a>
+        </nav> 
     </header>
    </div> 
-
-
-   <!-- MAIN -->
-   <main class="nosotros-contenedor">
-            <h2>Acerca de nosotros</h2>
-            <div class="nosotros-contenido">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia odio at cursus malesuada. Quisque eget porta nisi, in congue arcu. Suspendisse eget tellus arcu. Vivamus eu dictum lorem. Maecenas mollis ante sed arcu fermentum, ut pretium ipsum faucibus. Aenean felis tellus, aliquam at fringilla id, condimentum et felis.</p>
-
-                <img src="/src/img/contenido/img10.jpg">
+   
+   <!-- Empieza Main-->
+   <section class="portada-container titulo-nosotros">
+    <h1 class="titulo-primario">¡Acerca de nosotros!</h1>
+    <p>Te invitamos a que conozcas mas sobre nosotros </p>
+    </section>
+    <main>
+        </div>
+        <div class="quines-somos contenedor-oscuro">
+            
+            <h2 class="titulo-secundario">Productos orgánicos</h2>
+            <div class="contenedor productos-main org">
+                <div class="huerta">
+                    <h3 class="titulo-secundario">Productos 100% naturales</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet et diam non tristique. Morbi odio risus, ullamcorper pretium pharetra quis, bibendum et orci. In ultricies tortor erat, ac consequat lacus condimentum nec. Phasellus gravida quam id massa mollis ultrices. Duis accumsan lorem a quam tempor, ut dictum enim luctus.</p>
+                </div>
+                <div class="huerta_img_contenedor">
+                    <picture>
+                        <source srcset="build/img/contenido/img8.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/contenido/img8.jpg" alt="Imagen Huerta">
+                    </picture>
+                </div>
             </div>
-        </div>
-   </main>
 
-
-   <section>
-        <h3>Marcas con las que trabajamos</h3>
-        <div class="contenedor contenedor_marcas">
-            <picture>
-                <source srcset="build/img/marca1.webp" type="image/webp">
-                <img class="marca_img" loading="lazy" width="200" height="300" src="marca5.png" alt="marca de productos con los que trabajamos">
-            </picture>
-
-            <picture>
-                <source srcset="build/img/marca2.webp" type="image/webp">
-                <img class="marca_img" loading="lazy" width="200" height="300" src="marca5.png" alt="marca de productos con los que trabajamos">
-            </picture>
-
-            <picture>
-                <source srcset="build/img/marca3.webp" type="image/webp">
-                <img class="marca_img" loading="lazy" width="200" height="300" src="marca3.png" alt="marca de productos con los que trabajamos">
-            </picture>
-
-            <picture>
-                <source srcset="build/img/marca4.webp" type="image/webp">
-                <img class="marca_img" loading="lazy" width="200" height="300" src="marca4.png" alt="marca de productos con los que trabajamos">
-            </picture>
-        </div>
-   </section>
-    <!-- FOOTER -->
-    <footer class="footer">
-        <section class="contenedor">
-            <nav class="navegacion-principal footer-nav">
-            <a href="#" class="nav-link">Inicio</a>
-            <a href="#" class="nav-link">Nosotros</a>
-            <a href="#" class="nav-link">Tienda</a>
-            <a href="#" class="nav-link">Contacto</a>
-        </nav>
-        <p class="copyright"> Todos los derechos reservados&copy;2022</p> 
+            <div class="contenedor productos-main org2">
+                <div class="huerta-productos">
+                    <h3 class="titulo-secundario">La mejor calidad</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet et diam non tristique. Morbi odio risus, ullamcorper pretium pharetra quis, bibendum et orci. In ultricies tortor erat, ac consequat lacus condimentum nec. Phasellus gravida quam id massa mollis ultrices. Duis accumsan lorem a quam tempor, ut dictum enim luctus.</p>
+                </div>
+                <div class="huerta_img_contenedor">
+                    <picture>
+                        <source srcset="build/img/contenido/img10.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/contenido/img10.jpg" alt="img">
+                    </picture>
+                </div>
+            </div>
+            <div class="contenedor productos-main org3">
+                <div class="huerta-productos">
+                    <h3 class="titulo-secundario">Seleccion especial</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet et diam non tristique. Morbi odio risus, ullamcorper pretium pharetra quis, bibendum et orci. In ultricies tortor erat, ac consequat lacus condimentum nec. Phasellus gravida quam id massa mollis ultrices. Duis accumsan lorem a quam tempor, ut dictum enim luctus.</p>
+                </div>
+                <div class="huerta_img_contenedor">
+                    <picture>
+                        <source srcset="build/img/contenido/img5.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="350" src="build/img/contenido/img5.jpg" alt="img">
+                    </picture>
+                </div>
+            </div>
         </section>
-    </footer>
+    </main>
+    <section class="trayectoria">
+        <h3 class="titulo-secundario">Mas de - años de expereciencia</h3>
+            <div class="trayectoria-contenido contenedor">
+            <p>Proin dignissim sollicitudin lacus, nec accumsan orci fermentum a. Quisque eget nunc a lectus tincidunt feugiat. Cras enim odio, ullamcorper vel dictum nec, scelerisque ut metus. Maecenas molestie sagittis quam ut gravida. Vestibulum id purus eleifend, faucibus libero nec, mattis libero. Vivamus in justo lacinia turpis fringilla feugiat a eu felis. In consequat euismod risus vitae malesuada. Nunc ultrices rutrum velit aliquet fermentum. Donec nec pellentesque lectus, ut placerat ante. </p>
+           
+            <div class="trayectoria-flex">
+                <p>Praesent dapibus, tortor et tincidunt interdum, arcu ligula aliquam elit, eu dignissim nulla elit id magna. Maecenas convallis faucibus lorem, ac placerat massa dignissim a. Donec placerat risus nisl, at sodales tortor rhoncus id. Nam ut lectus in sem sollicitudin consectetur in non massa. </p>
+                <picture class="trayectoria-img">
+                    <source srcset="build/img/contenido/img6.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" class="img-tr" src="build/img/contenido/img6.jpg" alt="Imagen trayectoria">
+                </picture>
+            </div>
 
+        </div>
+    </section>
+<!--  Seccion de Marcas  -->
+        <section class="marcas contenedor-oscuro">
+            <h2 class="titulo-secundario">Conoce las marcas con las que trabajamos</h2>
+            <div class="contenedor_marcas">
+                <picture>
+                    <source srcset="build/img/marca5.webp" type="image/webp">
+                    <img class="marca_img" loading="lazy" width="200" height="300" src="marca5.png" alt="marca de productos con los que trabajamos">
+                </picture>
+
+                <picture>
+                    <source srcset="build/img/marca2.webp" type="image/webp">
+                    <img class="marca_img" loading="lazy" width="200" height="300" src="marca2.png" alt="marca de productos con los que trabajamos">
+                </picture>
+
+                <picture>
+                    <source srcset="build/img/marca3.webp" type="image/webp">
+                    <img class="marca_img" loading="lazy" width="200" height="300" src="marca3.png" alt="marca de productos con los que trabajamos">
+                </picture>
+
+                <picture>
+                    <source srcset="build/img/marca6.webp" type="image/webp">
+                    <img class="marca_img" loading="lazy" width="200" height="300" src="marca6.png" alt="marca de productos con los que trabajamos">
+                </picture>
+            </div>
+            <div class="marcas__texto contenedor">
+                <p>Nuestra seleccion de marcas de primera calidad te garantiza dasdasd. Quisque a posuere elit. Praesent in nunc sed massa posuere faucibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a posuere elit. Praesent in nunc sed massa posuere faucibus. Aliquam aliquet finibus interdum. </p>
+            </div>
+        </section>
+        <div class="container">
+            <img src=""  id="before">
+            <img src="" " id="next">
+        </div>
+    <footer class="footer">
+        <section class="footer-sec">
+            <nav class="navegacion-principal footer-nav">
+                <a href="#inicio" class="nav-link salto_uno" id="salto">Inicio</a>
+                <a href="nosotros.html" class="nav-link">Nosotros</a>
+                <a href="tienda.html" class="nav-link">Tienda</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </nav>
+            <div class="redes-footer">
+                <a href="https://www.facebook.com//" target="_blank">
+                    <picture> 
+                        <source srcset="build/img/redes/fb-logo.webp" type="image/webp">
+                        <source srcset="src/img/redes/fb-logo.png" type="image/png">
+                        <img loading="lazy" width="20" height="20" src="src/img/redes/fb-logo.png" alt="Logo de instagram" class="#">
+                    </picture> 
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <picture> 
+                        <source srcset="build/img/redes/ig-logo.webp" type="image/webp">
+                        <source srcset="src/img/redes/ig-logo.png" type="image/png">
+                        <img loading="lazy" width="20" height="20" src="src/img/redes/ig-logo.png" alt="Logo de instagram" class="#">
+                    </picture>
+                </a>
+            </div>
+        </section>
+        <p class="copyright"> Todos los derechos reservados&copy;2022</p> 
+    </footer>
     <script src="build/js/bundle.min.js"></script>
 </body>
 </html>

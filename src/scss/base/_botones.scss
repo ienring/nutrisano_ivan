@@ -14,7 +14,8 @@
 }
 .boton-secundario{
     background-color: $verdeos;
-    padding: 2.5rem;
+    padding: 1.5rem;
+    
     @include tablet {
         width: 30%;    
     }

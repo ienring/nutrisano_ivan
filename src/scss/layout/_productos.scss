@@ -1,22 +1,17 @@
-.sec-productos{
-    text-align: center;
-    color: $verdeos;
-    background-color: $alpha;
-}
-// .main {
-//     background-color: $blanco;
-//     background-position: fixed;
-//     width: 100%;
-//     padding: 2rem 0 15rem 0;
-//     h2{
-//         font-family: $fuente_principal;
-//         font-size: 7rem;
-//         margin-bottom: 9rem;
-//     }
-// }
-// .productos{
-//     color
-// }
-// .producto_img{
 
-// }
+@include tablet {
+    .org3 {
+        @include flex(column-reverse, 2rem);
+        grid-auto-flow: column;
+        .huerta-productos {
+            grid-column: 2;
+             h3, p{
+                text-align: center;
+                }
+            }
+        }
+}
+.productos-main {
+    border-bottom: 1px solid $grisClaro;
+    padding-bottom: 5rem;
+}
